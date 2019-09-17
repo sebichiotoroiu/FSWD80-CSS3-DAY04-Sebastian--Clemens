@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Photo-album</title>
-	<link rel="stylesheet" type="text/css" href="Photo-album.css" href="photo_album.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-image {
+  background-image: url("1.gif");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+aside {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding-top: 35%;
+
+}
+</style>
 </head>
 <body>
-	<section>
-		<div class="content">
-		<img src="https://images.pexels.com/photos/2893961/pexels-photo-2893961.jpeg?cs=srgb&dl=adventure-air-aircraft-2893961.jpg&fm=jpg" alt="beach" >
-		</div>
-		<div class="content">
-		<img src="https://www.pexels.com/photo/photo-of-person-walking-in-dessert-2837572/" alt="field">
-		</div>
-		<div class="content">
-		<img src="https://images.pexels.com/photos/2821285/pexels-photo-2821285.jpeg?cs=srgb&dl=coast-island-mountain-2821285.jpg&fm=jpg" alt="field" >
-		</div>
-	</section>
 
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">My gallery</h1>
+  </div>
+</div>
+</div>
+  <aside>
+        <p>To view the album-photo click on the links below</p>
+        <ul>
+          <ud><a href="file:///C:/Users/sebi/Desktop/FSWD80-CSS3-DAY04-Sebastian--Clemens/Photo-album%201.html/">Album-photo 1</a></ud>
+          <ud><a href="file:///C:/Users/sebi/Desktop/FSWD80-CSS3-DAY04-Sebastian--Clemens/Photo-album%202.html">Album-photo 2</a></ud>
+          <ud><a href="file:///C:/Users/sebi/Desktop/FSWD80-CSS3-DAY04-Sebastian--Clemens/Photo-album%203.html">Album-photo 3</a></ud>
+        </ul>
+      </aside>
 </body>
 </html>
