@@ -1,0 +1,13 @@
+content {
+	border: 1px solid red;
+	float: left;
+}
+
+
+
+
+
+p {
+	color: white;
+	text-shadow: -1px 0 black, 0 0 3px black, 0 0 5px black, 0 0 20px black, 0 -1px black
+}
